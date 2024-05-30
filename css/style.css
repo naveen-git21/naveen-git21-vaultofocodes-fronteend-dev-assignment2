@@ -1,0 +1,91 @@
+*{   
+  font-family:'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  margin: 0px;
+  background-color: aliceblue;
+}
+h1{
+  padding: 10px 15px;
+  margin: 0px 15px;
+}
+h2{
+  font-size: 30px;
+}
+li{
+  font-size: 20px;
+}
+.button-holder{
+  text-align: center;
+  padding: 20px;
+}
+button{
+  text-align: center;
+  background-color: black;
+  color: white;
+  width:150px;
+  height: 60px;
+  font-size: 18px;
+  /* border: 5px solid dimgray; */
+  border-radius: 10px 0 10px 0;
+  box-shadow: 0px 0px 10px dimgray;
+  cursor:grab
+}
+.container {
+  width: 90%;
+  height: 1000px;
+  margin: 10px auto; /*it will align the page to the center*/
+  background-color:ghostwhite;
+  border: 2px solid gainsboro;
+  box-shadow: 0px 0px 25px  rgba(0,0,0,0.3);  /*it will give the shadow for page*/
+}
+
+
+
+.content_holder{
+  display: flex;
+  justify-content: space-between; /*evenly seperate the content and the sidebar*/
+  background-color: cornsilk;
+  border: 2px solid chocolate;
+}
+
+.content_holder .content{ /*we are selecting the content holder first and then we are selecting the content inside*/
+  width: 90%;
+  background-color: ivory;
+  padding: 20px;
+}
+
+
+
+
+/*****************************************************************/
+/*   service holder page */
+
+.service_holder{
+  display: grid;
+  grid-template-columns: auto auto ; /*the grid e=will have three columns with equal distance*/
+  padding: 5px;
+}
+.service{
+  width: 85%;
+  height: 300px;
+  padding: 20px;
+  border: 0.1px solid rgba(147, 146, 146, 0.861);
+  margin: 20px;
+  box-shadow: 0 0 5px dimgray;
+  background-color: aliceblue;
+  border-radius: 25px 0px 25px 0px;
+}
+.service a {
+  color: blueviolet;
+}
+.service img{
+  width: 100%;
+  height: auto;
+}
+
+.button-holder a button:hover {
+  background-color: lightslategrey;
+}
